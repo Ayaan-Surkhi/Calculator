@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.calculator {
+  width: 400px;
+  background-color: #333;
+}
+
+.calculator .answer {
+  color: white;
+  background-color: #11e211;
+  width: 95%;
+  margin: 10px;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.calculator .key-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.calculator .key-set .key {
+  font-size: 20px;
+  color: white;
+  background-color: #00c3ff;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 25%;
+}
+
+.calculator .operations {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  width: 100px;
+  font-size: 30px;
+  position: relative;
+  left: 70%;
+  bottom: 90px;
+}
+
+.calculator .numbers {
+  position: absolute;
+  top: 200px;
+  margin-left: 20px;
+}
+
+.calculator .equal {
+  background-color: #00c3ff;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  bottom: 40px;
+}
+/*# sourceMappingURL=style.css.map */
