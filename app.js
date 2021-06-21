@@ -42,19 +42,13 @@ back.addEventListener('click', () => {
     if(answerPlace.innerHTML !== '0'){
         const  characters = result.split(" ");
         const lastCharacter = characters[characters.length - 1];
-        console.log(result.substring(result.length-1));
-        // result.substring(result.length-1);
-        console.log(result);
         result = result.replace(result.substring(result.length-1), 0);
         answerPlace.innerHTML = result; 
     }
 });
 
 equal.addEventListener('click', () => {
-    const numberInputs = /[^0-9]/gi;
-    console.log(result.replace(numberInputs, ''));
     const equation = result.split(" ");
-    console.log(equation);
 
     let answer = 0;
     equation.forEach((term, index) => {
