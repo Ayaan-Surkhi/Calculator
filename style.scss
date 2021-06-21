@@ -76,6 +76,17 @@ body{
       position: absolute;
       top: 200px;
       margin-left: 20px;         
+    
+      .zero{
+        font-size: 20px;
+        color: white;  
+        background-color: $key-color;
+        text-align: center;
+        border-radius: 10px;
+        width: 90%;
+        margin-left: 10px;
+        padding: 10px;
+      }
     }
 
     .equal{
@@ -87,7 +98,7 @@ body{
         height: 50px;
         margin: auto;
         position: relative;
-        bottom: 40px;
+        bottom: 20px;
     }
 
 }
