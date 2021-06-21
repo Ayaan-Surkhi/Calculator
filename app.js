@@ -19,9 +19,7 @@ numbers.forEach(number => {
 opertaions.forEach(opertaion => {
     opertaion.addEventListener('click', () => {
         const  characters = result.split(" ");
-        console.log(characters);
         const lastCharacter = characters[characters.length - 1];
-        console.log(lastCharacter);
         if(Number.isInteger(parseInt(lastCharacter))){
             result += ` ${opertaion.textContent} `;
             answerPlace.innerHTML = result;
