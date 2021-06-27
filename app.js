@@ -33,7 +33,8 @@ opertaions.forEach(opertaion => {
 });
 
 clear.addEventListener('click', () => {
-    answerPlace.innerHTML = 0;          
+    result = 0;
+    answerPlace.innerHTML = result;                   
 });
 
 back.addEventListener('click', () => {
