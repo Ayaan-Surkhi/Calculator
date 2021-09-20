@@ -41,6 +41,11 @@ back.addEventListener('click', () => {
     if(answerPlace.innerHTML !== '0'){
         const  characters = result.split(" ");
         const lastCharacter = characters[characters.length - 1];
+        if(result.length === 1){
+            result = result.replace(result.substring(result.length-1), 0);
+        }else{ 
+            result = result.replace(result.substring(result.length-1), '');
+        }
         result = result.replace(result.substring(result.length-1), 0);
         answerPlace.innerHTML = result; 
     }
